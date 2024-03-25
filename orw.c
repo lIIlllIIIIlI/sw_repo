@@ -1,5 +1,6 @@
 // File name: orw.c
 // Compile: gcc -o orw orw.c -masm=intel
+// Open the flag file, read its content, and write it to stdout
 
 __asm__(
     ".global run_sh\n"
